@@ -1,11 +1,8 @@
 {
-  "name": "react",
+  "name": "trivia-final-example",
   "version": "1.0.0",
-  "description": "React example starter project",
-  "keywords": [
-    "react",
-    "starter"
-  ],
+  "description": "",
+  "keywords": [],
   "main": "src/index.js",
   "dependencies": {
     "bootstrap": "5.1.0",

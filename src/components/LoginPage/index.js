@@ -101,7 +101,7 @@ function LoginPage() {
 
                 {serverError && <Alert variant="danger">{serverError}</Alert>}
                 <Button variant="primary" type="submit" disabled={submitting}>
-                  Submit
+                  {submitting ? "Vui lòng đợi..." : "Đăng nhập"}
                 </Button>
               </Form>
             </Card.Body>

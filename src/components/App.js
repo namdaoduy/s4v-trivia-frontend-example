@@ -15,8 +15,8 @@ function App() {
       <Switch>
         {!isLoggedIn && (
           <>
-            <Route exact path="/" component={LoginPage} />
-            <Redirect to="/" />
+            <Route exact path="/login" component={LoginPage} />
+            <Redirect to="/login" />
           </>
         )}
         {isLoggedIn && (
